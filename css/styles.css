@@ -1,0 +1,200 @@
+/***************
+*              *
+*     RESET    *
+*              *
+****************/
+
+/*Box Sizing Reset*/
+html
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after
+{
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*End of Reset*/
+
+/***************
+*              *
+*    GENERAL   *
+*              *
+****************/
+
+body {
+  color: #222;
+  font-size: 1em;
+  font-family: "Open-Sans", Arial, sans-serif;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+/*****************************
+*                            *
+*       LANDING PAGE         *
+*                            *
+*****************************/
+
+#landing-page
+{
+  height: 50rem;
+  background-image: url('http://i.imgur.com/ApPj4HB.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+/***************
+*              *
+*     HEADER   *
+*              *
+****************/
+
+.masthead-heading,
+.masthead-intro,
+.content-footer{
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/Mthgc3w.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 1.25em solid #292323;
+}
+
+.masthead-intro {
+  margin-bottom: 0.5em;
+  font-family: "PT-Mono", Arial, sans-serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Oswald", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.intro-section,
+.location-section,
+.question-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.social > li{
+  display: inline-block;
+  padding: 1em;
+}
+
+.intro-section > p,
+.location-section > p,
+.content-footer > p {
+  letter-spacing: 0.05em;
+}
+
+.intro-section > p,
+.location-section > p {
+  padding-top: 1.5em;
+}
+
+.intro-section > h1,
+.location-section > h1,
+.content-footer > h1,
+.question-section > h1{
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size:  2em;
+}
+
+.question-section > h2 {
+  font-family: "PT-Mono", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 1.5em;
+  color: #8a5842;
+}
+
+.content-footer {
+  background-color: #8a5842;
+  padding: 6em 0;
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead
+  {
+    padding: 3em 0;
+  }
+  .masthead-heading
+  {
+    font-size: 3em;
+  }
+}
