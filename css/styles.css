@@ -88,6 +88,7 @@ span {
   font-weight: bold;
   font-size: 1.05em;
 }
+.object-fit_contain { object-fit: contain; }
 
 .wrapper
 {
@@ -100,7 +101,7 @@ span {
 {
   display: inline-block;
 }
-.top-navigation > .wrapper
+.top-navigation .wrapper
 {
   height: 70px;
   position: absolute;
@@ -110,7 +111,7 @@ span {
 .top-navigation .links
 {
   color: #fefefe;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 25px;
   -webkit-font-smoothing: antialiased;
 }
@@ -139,14 +140,71 @@ span {
   background-position: center bottom;
   background-repeat: no-repeat;
 }
-
-/*#landing-page__intro
+.intro .wrapper
 {
-  color: #e0ffff;
-  font-family: "Quattrocento", Arial, sans-serif;
+  margin-top: 300px;
+}
+
+.intro .wrapper h1,
+.intro .wrapper h3,
+.top-navigation .links
+{
+  font-family:'Monda', cursive;
+  color: #fefefe;
+}
+.intro .wrapper h1
+{
   font-size: 2em;
   text-transform: uppercase;
-}*/
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+hr
+{
+  margin-top: 15px;
+}
+
+.intro .wrapper .icons > li
+{
+  border: 1px solid #eaebec;
+  border-radius: 1.25rem;
+  display: inline-block;
+  height: 2.5rem;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+  text-align: center;
+  width: 2.5rem;
+}
+
+.intro .wrapper .icons
+{
+  margin-left: 380px;
+}
+
+.intro .wrapper > h3
+{
+  margin-top: 45px;
+  margin-left: 320px;
+}
+
+/***************
+*              *
+*     CONTENT  *
+*              *
+****************/
+.projects
+{
+  width: 33.333%;
+  height: 4em;
+}
+
+.projects img
+{
+  width: 300px;
+  height: 300px;
+  margin-left: 25px;
+}
 
 /***************
 *              *
