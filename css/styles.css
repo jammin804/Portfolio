@@ -170,11 +170,11 @@ hr
   border: 1px solid #eaebec;
   border-radius: 1.25rem;
   display: inline-block;
-  height: 2.5rem;
+  height: 2.6rem;
   margin: 1.25rem 5px;
-  padding: 0.625rem 0;
+  padding: 0.25rem 0;
   text-align: center;
-  width: 2.5rem;
+  width: 2.6rem;
 }
 
 .intro .wrapper .icons
@@ -182,10 +182,35 @@ hr
   margin-left: 380px;
 }
 
+.intro .wrapper .icons .github > a:hover
+{
+  color: #4c5058;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.intro .wrapper .icons .linkedin > a:hover
+{
+  color: #4c5058;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.intro .wrapper .icons .twitter > a:hover
+{
+  color: #4c5058;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
 .intro .wrapper > h3
 {
   margin-top: 45px;
-  margin-left: 320px;
+  margin-left: 300px;
 }
 
 /***************
@@ -195,15 +220,19 @@ hr
 ****************/
 .projects
 {
-  width: 33.333%;
-  height: 4em;
+/*  width: 33.333%;
+  height: 4em;*/
+  margin: 0 auto;
 }
 
 .projects img
 {
-  width: 300px;
-  height: 300px;
-  margin-left: 25px;
+  display: inline-block;
+  width: 275px;
+  height: 275px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #000;
 }
 
 /***************
